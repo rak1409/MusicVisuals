@@ -136,6 +136,21 @@ public class RakshitVisual extends Visual
         fill(150, 255, 255);
         ellipse(halfWidth, (height/4)+20, 20, 20);
 
+        for(int i = 0 ; i < getAudioBuffer().size() ; i ++)
+        {
+            stroke(
+                map(i, 0, getAudioBuffer().size(), 0, 255)
+                , 255
+                , 255
+            );
+
+
+
+            line((halfWidth-75) + 70 * getAudioBuffer().get(i),i+((height/4)+200), (halfWidth-75), i+((height/4)+150));
+            line((halfWidth+75) + 70 * getAudioBuffer().get(i),i+((height/4)+200), (halfWidth+75), i+((height/4)+150));
+
+            
+        }
         
     }
     
