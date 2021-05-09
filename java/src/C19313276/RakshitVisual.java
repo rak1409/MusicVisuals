@@ -82,7 +82,22 @@ public class RakshitVisual extends Visual
             ellipse(200, 200, 100 + 200 * getAudioBuffer().get(i), 200);
         }
         popMatrix();
-        
+
+        //2nd plannet layer
+        pushMatrix();
+        for(int i = 0 ; i < getAudioBuffer().size() ; i ++)
+        {   
+            noStroke();
+            fill(
+                map(i, 0, getAudioBuffer().size(), 25, 40)
+                , 255
+                , 255
+            );
+            rotate(0.10f);
+            ellipse(100, 100, 100 + 200 * getAudioBuffer().get(i), 200);
+        }
+        popMatrix();
+
         
     }
     
