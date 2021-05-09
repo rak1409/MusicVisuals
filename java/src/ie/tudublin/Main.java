@@ -1,8 +1,8 @@
 package ie.tudublin;
 
-// import example.CubeVisual;
+import example.CubeVisual;
 // import example.MyVisual;
-// import example.RotatingAudioBands;
+import example.RotatingAudioBands;
 import C19313276.RakshitVisual;
 
 public class Main

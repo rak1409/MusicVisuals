@@ -27,11 +27,12 @@ public class RakshitVisual extends Visual
         startMinim();
                 
         // Call loadAudio to load an audio file to process 
-        //loadAudio("heroplanet.mp3");   
+        loadAudio("audio1.mp3");
+        getAudioPlayer().play();   
 
         
         // Call this instead to read audio from the microphone
-        startListening(); 
+        //startListening(); 
         
         r1 = new Rocket(this);
         a1 = new Astronaut(this);
@@ -43,10 +44,14 @@ public class RakshitVisual extends Visual
         if (keyCode >= '0' && keyCode <= '5') {
             option = keyCode - '0';
         }
-        if (keyCode == ' ') {
-            if (getAudioPlayer().isPlaying()) {
+        if (keyCode == ' ') 
+        {
+            if (getAudioPlayer().isPlaying()) 
+            {
                 getAudioPlayer().pause();
-            } else {
+            } 
+            else 
+            {
                 getAudioPlayer().rewind();
                 getAudioPlayer().play();
             }
@@ -120,7 +125,7 @@ public class RakshitVisual extends Visual
             }
             case 5:
             {
-                //just load the astronaught
+                //just load the astronauht
                 colorMode(RGB);
                 a1.render();
                 break;
