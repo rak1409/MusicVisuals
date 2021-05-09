@@ -8,6 +8,8 @@ public class RakshitVisual extends Visual
     Rocket r1;
     Galaxy g1;
 
+    int option = 0;
+
     public void settings()
     {
         size(1024, 500);
@@ -38,7 +40,17 @@ public class RakshitVisual extends Visual
 
     public void keyPressed()
     {
-        
+        if (keyCode >= '0' && keyCode <= '5') {
+            option = keyCode - '0';
+        }
+        if (keyCode == ' ') {
+            if (getAudioPlayer().isPlaying()) {
+                getAudioPlayer().pause();
+            } else {
+                getAudioPlayer().rewind();
+                getAudioPlayer().play();
+            }
+        }
     }
 
 
@@ -61,13 +73,59 @@ public class RakshitVisual extends Visual
 
         // Call this is you want to get the average amplitude
         calculateAverageAmplitude();        
+        switch (option)
+        {
+            case 0:
+            {
+                //just load the galaxy
+                colorMode(HSB);
+                g1.render();
+                break;
+            }
+            case 1:
+            {
+                //load the galaxy and rocket
+                colorMode(HSB);
+                g1.render();
+                r1.render();
+                break;
+            }
+            case 2:
+            {
+                //load the galaxy and astronaut
+                colorMode(HSB);
+                g1.render();
 
-        colorMode(HSB);
-        g1.render();
-        r1.render();
+                colorMode(RGB);
+                a1.render();
+                break;
+            }
+            case 3:
+            {
+                //load all visualisers
+                colorMode(HSB);
+                g1.render();
+                r1.render();
 
-        colorMode(RGB);
-        a1.render();
+                colorMode(RGB);
+                a1.render();
+                break;
+            }
+            case 4:
+            {
+                //just load rocket 
+                colorMode(HSB);
+                r1.render(); 
+                break;   
+            }
+            case 5:
+            {
+                //just load the astronaught
+                colorMode(RGB);
+                a1.render();
+                break;
+            }
+        }
         
     }
     

@@ -69,7 +69,7 @@ public class Galaxy {
         }
         rv.popMatrix();
 
-        //innner most plannet layer
+        //outer lines of the planets
         rv.pushMatrix();
         for(int i = 0 ; i < rv.getAudioBuffer().size() ; i ++)
         {   
