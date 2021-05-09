@@ -113,6 +113,29 @@ public class RakshitVisual extends Visual
         }
         popMatrix();
 
+        // drawing the rocket.
+        fill(358, 200, 255);
+        noStroke();
+        //bottom triangles
+        triangle(halfWidth-30, (height/4)+100, halfWidth-10, (height/4)+100, halfWidth-20, (height/4)+110);
+        triangle(halfWidth+30, (height/4)+100, halfWidth+10, (height/4)+100, halfWidth+20, (height/4)+110);
+        //rocket wings
+        triangle((halfWidth+25), (height/4)+50, halfWidth+25, (height/4)+100, halfWidth+75, (height/4)+150);
+        triangle((halfWidth-25), (height/4)+50, halfWidth-25, (height/4)+100, halfWidth-75, (height/4)+150);
+        //rocket nose
+        triangle(halfWidth-25, height/4, halfWidth+25, height/4, halfWidth, (height/4)-30);
+        
+        //main body
+        fill(255);
+        rect(halfWidth-25f, height/4, 50f, 100f);
+
+        //window
+        fill(358,255,255);
+        stroke(10);
+        ellipse(halfWidth, (height/4)+20, 30, 30);
+        fill(150, 255, 255);
+        ellipse(halfWidth, (height/4)+20, 20, 20);
+
         
     }
     
