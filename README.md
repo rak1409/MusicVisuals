@@ -17,12 +17,12 @@ My assignment is based on the theme of outer space. Using java and visual studio
 # Instructions
 There are 6 options available in this program.
 Press:
-0 - This loads the galaxy view.
-1 - This loads the galaxy and rocket view.
-2 - This loads the galaxy and astronaut view.
-3 - This loads all the views together.
-4 - This loads the rocket view.
-5 - This loads the astronaut view.
+-0 - This loads the galaxy view.
+-1 - This loads the galaxy and rocket view.
+-2 - This loads the galaxy and astronaut view.
+-3 - This loads all the views together.
+-4 - This loads the rocket view.
+-5 - This loads the astronaut view.
 
 # How it works
 This program works by taking a digital audio sample from either a stored audio file or from a microphone. Using the minim and FTT libraries in java this program takes samples from the audio and then this data is used to visualise these sound waves. Using the PApplet class in java these wave forms can be visuallised.FTT allows us to seperate the different frequencies of sound. Using shapes, lines and various corlor range some really awsome anomations can created. All of these have been implemented in this assignment.
