@@ -17,20 +17,20 @@ My assignment is based on the theme of outer space. Using java and visual studio
 # Instructions
 There are 6 options available in this program.
 Press:
--0 - This loads the galaxy view.
--1 - This loads the galaxy and rocket view.
--2 - This loads the galaxy and astronaut view.
--3 - This loads all the views together.
--4 - This loads the rocket view.
--5 - This loads the astronaut view.
+- 0 - This loads the galaxy view.
+- 1 - This loads the galaxy and rocket view.
+- 2 - This loads the galaxy and astronaut view.
+- 3 - This loads all the views together.
+- 4 - This loads the rocket view.
+- 5 - This loads the astronaut view.
 
 # How it works
 This program works by taking a digital audio sample from either a stored audio file or from a microphone. Using the minim and FTT libraries in java this program takes samples from the audio and then this data is used to visualise these sound waves. Using the PApplet class in java these wave forms can be visuallised.FTT allows us to seperate the different frequencies of sound. Using shapes, lines and various corlor range some really awsome anomations can created. All of these have been implemented in this assignment.
 
 # What I am most proud of in the assignment
-The project turned out to better than I thought, as I was really suffering with time management. I was delighted do develop something that was associated with my other major intrest in outer space and galaxies. I would definately use this visulaiser when listening to songs. Check out the demo video of the program: [hyperlink](https://youtu.be/5KLG1Qj9OFc).
+The project turned out to better than I thought, as I was really suffering with time management. I was delighted do develop something that was associated with my other major intrest in outer space and galaxies. I would definately use this visulaiser when listening to songs. Check out the demo video of the program: [Click Here!](https://youtu.be/5KLG1Qj9OFc).
 
-#Snapshots
+# Snapshots
 ![image1](https://user-images.githubusercontent.com/71874640/117583189-a9fbd480-b0fd-11eb-931d-cff4f0225fbe.png)
 ![image2](https://user-images.githubusercontent.com/71874640/117583196-b54f0000-b0fd-11eb-9897-3fcf77ce61c5.png)
 ![image3](https://user-images.githubusercontent.com/71874640/117583202-c6980c80-b0fd-11eb-8e96-de0908078ae4.png)
