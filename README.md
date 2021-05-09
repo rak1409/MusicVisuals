@@ -28,7 +28,7 @@ Press:
 This program works by taking a digital audio sample from either a stored audio file or from a microphone. Using the minim and FTT libraries in java this program takes samples from the audio and then this data is used to visualise these sound waves. Using the PApplet class in java these wave forms can be visuallised.FTT allows us to seperate the different frequencies of sound. Using shapes, lines and various corlor range some really awsome anomations can created. All of these have been implemented in this assignment.
 
 # What I am most proud of in the assignment
-The project turned out to better than I thought, as I was really suffering with time management. I was delighted do develop something that was associated with my other major intrest in outer space and galaxies. I would definately use this visulaiser when listening to songs. Check out the demo video of the program: [Click Here!](https://youtu.be/5KLG1Qj9OFc).
+The project turned out to better than I thought, as I was really suffering with time management. I was delighted do develop something that was associated with my other major intrest in outer space and galaxies. I would definately use this visulaiser when listening to songs. Check out the demo video of the program: [Click Here!](https://youtu.be/8r9C1e3NRAo).
 
 # Snapshots
 ![image1](https://user-images.githubusercontent.com/71874640/117583189-a9fbd480-b0fd-11eb-931d-cff4f0225fbe.png)
